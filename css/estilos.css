@@ -12,9 +12,10 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
+    
 }
 .contenido-barra {
     display: flex;
@@ -25,9 +26,11 @@
     margin-right: auto;
     margin-left: auto;
     padding-right: 50px;
+    align-items: center;
+    padding-left: 50px;
 
 }
-#logo-navegacion{
+#logo-navegacion{ /* poner id en logo */
     color: #fff;
     display: flex;
     align-items: center;
@@ -158,6 +161,17 @@ crear una clase para todas las imagenes .imaganes(todas las propiedas menos las 
     color: #fff;
     margin-bottom: 5rem;
     font-size: 2rem;
+}
+/* Footer CSS */
+.footer__container {
+    background-color: #141414;
+    padding: 5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.website__rights {
+    color: #fff;
 }
 
 
