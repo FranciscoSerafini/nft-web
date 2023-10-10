@@ -6,13 +6,13 @@
 
 }
 .barra-navegacion {
-    background:black;
+    background:#131313;
     height: 80px; /** ancho **/
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 999;
     
@@ -26,9 +26,8 @@
     margin-right: auto;
     margin-left: auto;
     padding-right: 50px;
-    align-items: center;
     padding-left: 50px;
-
+   
 }
 #logo-navegacion{ /* poner id en logo */
     color: #fff;
@@ -76,6 +75,94 @@
     margin: 0 auto;
 
 }
+.main {
+    background-color: #141414;
+}
+.main__content {
+    width: 100%;
+}
+.texto-grande {
+    color: #0071f3;
+}
+
+.contenido_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contenido_main h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contenido_p {
+    font-size: 2.5rem;
+    margin-top: 8px;
+    font-weight: 100;
+    color: #dbdbdb;
+}
+
+.contenido_boton {
+    font-size: 1rem;
+    padding: 14px 32px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35;
+    outline: none;
+}
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #000;
+    text-decoration: none;
+}
+
+.main__btn:after {
+ position: absolute;
+ content: '';
+ top: 0;
+ left: 0;
+ width: 0;
+ height: 100%;
+ background: #782605;
+ transition: all 0.35s;
+border-radius: 4px;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.imagen-medio {
+    text-align: center;
+}
+#imagen-medio_ {
+    height: 425px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+
+
+
 /** 
 crear una clase para todas las imagenes .imaganes(todas las propiedas menos las del fondo)
 
