@@ -70,15 +70,24 @@
     height: calc(100vh - 80px);
 }
 .contenido-imagenes {
-    display: flex;
+    display: grid;
     justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+
 
 }
+.contenido-imagenes .titulo-h1 {
+    margin-top: 15%;
+}
+
 .main {
     background-color: #141414;
+    min-height: 100vh;
+    text-align: center;
+
 }
 .main__content {
     width: 100%;
@@ -125,7 +134,12 @@
     position: relative;
     transition: all 0.35;
     outline: none;
+    
 }
+.contenido_boton a {
+    text-decoration: none;
+}
+
 .main__btn a {
     position: relative;
     z-index: 2;
@@ -240,7 +254,43 @@ crear una clase para todas las imagenes .imaganes(todas las propiedas menos las 
     width: 400px;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('../images/monkey-3.jpg');
+    url('../images/nft-7695648_1280.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+.imagen-7 {
+    margin: 1rem;
+    height: 425px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url('../images/ape-7020995_1280.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+.imagen-8 {
+    margin: 1rem;
+    height: 425px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url('../images/bored-6945309_1280.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+.imagen-9 {
+    margin: 1rem;
+    height: 425px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url('../images/technology-7030913_1280.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -278,21 +328,74 @@ crear una clase para todas las imagenes .imaganes(todas las propiedas menos las 
 }
 /* Footer CSS */
 .footer__container {
-    background-color: #061721;
-   padding: 5rem 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(7, 7, 14) 0%, rgb(6, 6, 11) 100%, rgba(19, 20, 20, 0.086) 100%);
+    padding: 5rem 0;
     text-align: center;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
+   
     
+}
+.footer__container ul{
+    text-decoration: none;
+    list-style: none;
+
 }
 
 
 .website__rights {
     color: #fff;
 }
+
+.main-contacto {
+    min-height: calc(100vh - 489px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    margin: 2em 0;
+    
+
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.main-contacto h1 {
+    margin-bottom: 1em;
+}
+
 
 
 
