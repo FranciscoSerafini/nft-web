@@ -7,49 +7,57 @@ const galeria = {
         {
             nombre:"ape",
             id:"147",
-            tipo:"nft",
             imagen:"../images/monkey.jpg",
             
         },
         {
-            nombre:"",
+            nombre:"mon",
             id:"",
-            tipo:"",
             imagen:"../images/monkey-2.jpg",
-            link:"",
-            stock:""
+           
+         
         },
         {
-            nombre:"",
+            nombre:"mon",
             id:"",
-            tipo:"",
             imagen:"../images/monkey-3.jpg",
-            link:"",
-            stock:""
+            
         },
         {
-            nombre:"",
+            nombre:"mon",
             id:"",
-            tipo:"",
             imagen:"../images/cat.jpg",
-            link:"",
-            stock:""
+            
         },
         {
-            nombre:"",
+            nombre:"mon",
             id:"",
-            tipo:"",
             imagen:"../images/monkey-4.jpg",
-            link:"",
-            stock:""
+           
         },
         {
-            nombre:"",
+            nombre:"mon",
             id:"",
-            tipo:"",
+            imagen:"../images/ape-7020995_1280.png",
+           
+        },
+        {
+            nombre:"mon",
+            id:"",
             imagen:"../images/nft-7695648_1280.jpg",
-            link:"",
-            stock:""
+           
+        },
+        {
+            nombre:"mon",
+            id:"",
+            imagen:"../images/technology-7030913_1280.png",
+           
+        },
+        {
+            nombre:"mon",
+            id:"",
+            imagen:"../images/cat-2.jpg",
+           
         },
     ]
 }
