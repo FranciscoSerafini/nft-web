@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>NFT site</title>
 </head>
 <body>
- <!--Barra de navegacion-->
     <header>
-        <nav class="barra-navegacion">
+       <!--Barra de navegacion-->
+       <nav class="barra-navegacion">
             <div class="contenido-barra">
-                <a href="home.html" id="logo-navegacion">NFT</a>
+                <a href="home.html" id="logo-navegacion" class="links-navegacion">NFT</a>
             </div>
             <ul class="navegacion-menu">
                 <li class="navegacion-item">
@@ -24,28 +24,42 @@
                     <a href="contact.html" class="links-navegacion">Contact</a>
                 </li>
             </ul>
-        </nav>
-        
+       </nav>
+       <!--Sector de imagen-->
+       <div class="main">
+            <div class="contenido_main">
+                    <div class="main_content">
+                        <h1>Join the <span class="texto-grande">Movement and Unlock</span>Unique ART</h1>
+                      
+                        <button class="contenido_boton">
+                            <a href="gallery.html">View Gallery</a>
+                        </button>
+                       
+                    </div>
+                    <div class="main__img--container">
+                        <img src="images/cat-2.jpg" alt="gato" id="imagen-medio_">
+                   </div>
+            </div>
+        </div>
     </header>
-    <main class="main-contacto">
-        <h1>Sign up</h1>
-        <form action="/procesar_registro" method="post">
-            <label for="nombre">Name:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-            
-            <label for="apellido">Last name:</label>
-            <input type="text" id="apellido" name="apellido" required><br><br>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            
-            <label for="billetera">Wallet Number:</label>
-            <input type="text" id="billetera" name="billetera" required><br><br>
-            
-            <input type="submit" value="Log In">
-        </form>
+    <main>
+        <section class="trial">
+            <h2 class="titulo-trial">Get a free trial</h2>
+            <p class="trial p">
+                NFT's are revolutionizing the way commerce is conducted, 
+                contracts are enforced, investments are held, and value is transferred. Every tree in the forest knows about creating value and how it is 
+                transferred. Each reciprocal exchange is a symphony of uniqueness, where every token represents a unique and irreplaceable piece in the vast 
+                digital ecosystem. Authenticity and ownership become immutable, etched into the blockchain as an irrefutable testament to the singularity of each 
+                digital asset.
+                As NFTs gain ground, new possibilities emerge in the digital economy. Doors are opening for artists, 
+                creators, and collectors to participate in a borderless global market, where value is not confined to the tangible.
+                NFTs are democratizing access to ownership and value, allowing anyone to own a piece of digital culture and creativity.
+                In this new paradigm, NFTs not only represent assets but also the connection between artists and their audiences, 
+                between collectors and their appreciation for digital art and culture. It is an ever-evolving conversation between the physical and virtual worlds,
+                where digital authenticity and scarcity create a canvas for innovation and expression.
+            </p>
+        </section>
     </main>
-   
     <footer class="footer__container">
         <div>
             <h3 class="titulo-h1">Quick Links</h3>
@@ -87,6 +101,7 @@
                 <li><a href="" class="links-navegacion">WhatsApp</a></li>
             </ul>
         </div>  
+
     </footer>
 </body>
 </html>

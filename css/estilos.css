@@ -1,11 +1,20 @@
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
 
+:root {
+    --box-sizing: border-box;
+    --margin: 0;
+    --padding: 0;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+* {
+    box-sizing: var(--box-sizing);
+    margin: var(--margin);
+    padding: var(--padding);
+    font-family: var(--font-family);
+}
+
+/* Resto del código CSS sigue aquí... */
+
 
 .barra-navegacion {
     background:#131313;
